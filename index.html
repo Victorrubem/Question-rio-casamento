@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Questionário Pré-Casamento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f0f2f5;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 900px;
+      margin: auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .section-title {
+      border-left: 4px solid #0d6efd;
+      padding-left: 10px;
+      margin-top: 30px;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #333;
+    }
+    .question {
+      margin-top: 20px;
+    }
+    .form-check {
+      margin-bottom: 5px;
+    }
+    .form-control.custom-input {
+      max-width: 500px;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 class="text-center mb-4">Questionário de Conversas Essenciais Antes do Casamento</h2>
+    <form>
+
+      <div class="section-title">1. Desejo de filhos</div>
+      <div class="question"><label>Vocês desejam ter filhos?</label>
+        <div class="form-check"><input type="radio" name="filhos" class="form-check-input"> <label class="form-check-label">Sim</label></div>
+        <div class="form-check"><input type="radio" name="filhos" class="form-check-input"> <label class="form-check-label">Não</label></div>
+        <div class="form-check"><input type="radio" name="filhos" class="form-check-input"> <label class="form-check-label">Ainda não sabemos</label></div>
+      </div>
+      <div class="question">
+        <label>Se sim, quantos filhos idealizam?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Qual o intervalo ideal de idade entre os filhos?</label>
+        <div class="form-check"><input type="radio" name="intervalo" class="form-check-input"> <label class="form-check-label">Menos de 2 anos</label></div>
+        <div class="form-check"><input type="radio" name="intervalo" class="form-check-input"> <label class="form-check-label">De 2 a 4 anos</label></div>
+        <div class="form-check"><input type="radio" name="intervalo" class="form-check-input"> <label class="form-check-label">Mais de 4 anos</label></div>
+      </div>
+
+      <div class="section-title">2. Provedoria e carreira</div>
+      <div class="question"><label>Quem será o responsável por prover financeiramente o lar?</label>
+        <div class="form-check"><input type="radio" name="provedor" class="form-check-input"> <label class="form-check-label">Apenas o homem</label></div>
+        <div class="form-check"><input type="radio" name="provedor" class="form-check-input"> <label class="form-check-label">Apenas a mulher</label></div>
+        <div class="form-check"><input type="radio" name="provedor" class="form-check-input"> <label class="form-check-label">Ambos</label></div>
+      </div>
+      <div class="question"><label>Se apenas o homem for prover, você (mulher) se sentirá satisfeita com esse papel?</label>
+        <div class="form-check"><input type="radio" name="satisfacao" class="form-check-input"> <label class="form-check-label">Sim, é o que desejo</label></div>
+        <div class="form-check"><input type="radio" name="satisfacao" class="form-check-input"> <label class="form-check-label">Não, gostaria de também contribuir financeiramente</label></div>
+        <div class="form-check"><input type="radio" name="satisfacao" class="form-check-input"> <label class="form-check-label">Indiferente</label></div>
+      </div>
+      <div class="question"><label>Você tem o sonho de construir carreira?</label>
+        <div class="form-check"><input type="radio" name="carreira" class="form-check-input"> <label class="form-check-label">Sim</label></div>
+        <div class="form-check"><input type="radio" name="carreira" class="form-check-input"> <label class="form-check-label">Não</label></div>
+        <div class="form-check"><input type="radio" name="carreira" class="form-check-input"> <label class="form-check-label">Talvez no futuro</label></div>
+      </div>
+      <div class="question"><label>Se sim, qual carreira você sonha em seguir?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+
+      <div class="section-title">3. Filhos e tarefas domésticas</div>
+      <div class="question"><label>Se ambos forem provedores, quem ficará com as crianças?</label>
+        <div class="form-check"><input type="radio" name="criancas" class="form-check-input"> <label class="form-check-label">A mulher</label></div>
+        <div class="form-check"><input type="radio" name="criancas" class="form-check-input"> <label class="form-check-label">O homem</label></div>
+        <div class="form-check"><input type="radio" name="criancas" class="form-check-input"> <label class="form-check-label">Alguém da família (ex: avó)</label></div>
+        <div class="form-check"><input type="radio" name="criancas" class="form-check-input"> <label class="form-check-label">Babá contratada</label></div>
+      </div>
+      <div class="question"><label>Quem será responsável pelas tarefas domésticas?</label>
+        <div class="form-check"><input type="radio" name="tarefas" class="form-check-input"> <label class="form-check-label">Divisão igual entre o casal</label></div>
+        <div class="form-check"><input type="radio" name="tarefas" class="form-check-input"> <label class="form-check-label">Mulher</label></div>
+        <div class="form-check"><input type="radio" name="tarefas" class="form-check-input"> <label class="form-check-label">Homem</label></div>
+        <div class="form-check"><input type="radio" name="tarefas" class="form-check-input"> <label class="form-check-label">Contratar ajuda externa</label></div>
+      </div>
+      <div class="question"><label>Vocês pretendem contratar uma faxineira ou diarista?</label>
+        <div class="form-check"><input type="radio" name="faxineira" class="form-check-input"> <label class="form-check-label">Sim</label></div>
+        <div class="form-check"><input type="radio" name="faxineira" class="form-check-input"> <label class="form-check-label">Não</label></div>
+        <div class="form-check"><input type="radio" name="faxineira" class="form-check-input"> <label class="form-check-label">Apenas em situações pontuais</label></div>
+      </div>
+      <div class="question"><label>Se não puderem contratar ajuda, como será feita a divisão das tarefas domésticas?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+
+      <div class="section-title">4. Finanças</div>
+      <div class="question"><label>Como será a divisão das contas da casa?</label>
+        <div class="form-check"><input type="radio" name="contas" class="form-check-input"> <label class="form-check-label">50/50</label></div>
+        <div class="form-check"><input type="radio" name="contas" class="form-check-input"> <label class="form-check-label">Proporcional ao salário</label></div>
+        <div class="form-check"><input type="radio" name="contas" class="form-check-input"> <label class="form-check-label">Um paga as contas fixas e outro as variáveis</label></div>
+        <div class="form-check"><input type="radio" name="contas" class="form-check-input"> <label class="form-check-label">Outro modelo (descrever)</label></div>
+      </div>
+      <div class="question"><label>Vocês concordam em separar uma parte da renda para investimentos e poupança?</label>
+        <div class="form-check"><input type="radio" name="investimentos" class="form-check-input"> <label class="form-check-label">Sim</label></div>
+        <div class="form-check"><input type="radio" name="investimentos" class="form-check-input"> <label class="form-check-label">Não</label></div>
+        <div class="form-check"><input type="radio" name="investimentos" class="form-check-input"> <label class="form-check-label">Ainda precisamos discutir isso</label></div>
+      </div>
+
+      <div class="section-title">5. Qualidade do relacionamento</div>
+      <div class="question"><label>Qual dia da semana pretendem reservar para tempo de qualidade a dois?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Quando houver um desentendimento, como pretendem lidar com isso?</label>
+        <div class="form-check"><input type="radio" name="desentendimento" class="form-check-input"> <label class="form-check-label">Dormir juntos mesmo que chateados</label></div>
+        <div class="form-check"><input type="radio" name="desentendimento" class="form-check-input"> <label class="form-check-label">Dormir separados até se resolverem</label></div>
+        <div class="form-check"><input type="radio" name="desentendimento" class="form-check-input"> <label class="form-check-label">Um dos dois pode sair para esfriar a cabeça</label></div>
+        <div class="form-check"><input type="radio" name="desentendimento" class="form-check-input"> <label class="form-check-label">Procurar resolver no mesmo dia antes de dormir</label></div>
+      </div>
+
+      <div class="section-title">6. Amizades e convívio social</div>
+      <div class="question"><label>Você está de acordo com as amizades que seu parceiro tem atualmente?</label>
+        <div class="form-check"><input type="radio" name="amizades" class="form-check-input"> <label class="form-check-label">Sim</label></div>
+        <div class="form-check"><input type="radio" name="amizades" class="form-check-input"> <label class="form-check-label">Não</label></div>
+        <div class="form-check"><input type="radio" name="amizades" class="form-check-input"> <label class="form-check-label">Em parte</label></div>
+      </div>
+      <div class="question"><label>Quais valores e princípios considera importantes nas amizades do seu cônjuge?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+
+      <div class="section-title">7. Complementos recomendados</div>
+      <div class="question"><label>Vocês têm fé ou religião? Como isso influenciará o casamento e a criação dos filhos?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Como lidam com dinheiro individualmente? São controlados, gastadores ou equilibrados?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Já discutiram sobre onde querem morar (cidade, tipo de imóvel)?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Qual o plano caso um dos dois queira mudar de carreira, estudar fora ou se mudar de cidade?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+      <div class="question"><label>Como lidam com a família do outro? Pretendem visitar com frequência? Como equilibrar interferências externas?</label>
+        <input type="text" class="form-control custom-input">
+      </div>
+
+      <div class="question text-center mt-4"><button type="button" class="btn btn-success me-2" onclick="exportarPDF()">Exportar PDF</button>
+        <button type="submit" class="btn btn-primary px-4">Salvar Respostas</button>
+      </div>
+    </form>
+  </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+  function exportarPDF() {
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF();
+    let y = 10;
+
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(14);
+    doc.text("Questionário Pré-Casamento - Respostas", 10, y);
+    y += 10;
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(11);
+
+    const form = document.querySelector("form");
+    const questions = form.querySelectorAll(".question");
+
+    questions.forEach(q => {
+      const label = q.querySelector("label");
+      const inputs = q.querySelectorAll("input");
+      let resposta = "";
+
+      inputs.forEach(input => {
+        if (input.type === "radio" && input.checked) {
+          const optionLabel = input.nextElementSibling ? input.nextElementSibling.innerText : input.value;
+          resposta += optionLabel;
+        }
+        if (input.type === "text" && input.value.trim()) {
+          resposta += (resposta ? " | " : "") + input.value.trim();
+        }
+      });
+
+      if (label && resposta) {
+        if (y > 280) {
+          doc.addPage();
+          y = 10;
+        }
+        doc.text(`${label.innerText}: ${resposta}`, 10, y);
+        y += 8;
+      }
+    });
+
+    doc.save("respostas-pre-casamento.pdf");
+  }
+</script>
+
+</body>
+</html>
